@@ -1,10 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
-
 ## Function to create, view, set the inverse and view the inverse of a matrix
 
 makeCacheMatrix <- function(x = matrix()) {
-    
     inv <- NULL
     
     #set the matrix
@@ -39,7 +35,6 @@ makeCacheMatrix <- function(x = matrix()) {
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
-        
         invMatrix <- x$getInv()
         if (!is.null(invMatrix)) {
                 message ("getting cached inverse")
