@@ -1,6 +1,6 @@
 ## Function to create, view, set the inverse and view the inverse of a matrix
 
-makeCacheMatrix <- function(x = matrix()) {
+makeCacheMatrix <- function(m = matrix()) {
     inv <- NULL
     
     #set the matrix
